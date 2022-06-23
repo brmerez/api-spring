@@ -7,11 +7,12 @@ import lombok.Getter;
 import org.jetbrains.annotations.NotNull;
 
 import java.util.List;
+import java.util.UUID;
 
 @AllArgsConstructor(access = AccessLevel.PRIVATE)
 @Getter
 public class UserResponseDTO {
-    private Long id;
+    private UUID id;
     private String name;
     private String email;
 
